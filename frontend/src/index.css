@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* background-color Pallete  */
+
+/* Dark - 0A0908 
+  blue- 22333B
+  sandal -EAE0D5
+  dark - C6AC8F
+  brownish -5E503F
+*/
+.black{
+    background-color: #0A0908;
+}
+.blue{
+    background-color: #22333B;
+}
+.sandal{
+    background-color: #EAE0D5;
+}
+.dark-sandal{
+    background-color: #C6AC8F;
+}
+.brownish{
+    background-color: #5E503F;
+}
+
+
+.backgrnd{
+    background-image: url('https://res.cloudinary.com/djdhjstoc/image/upload/v1706627175/A_background_fo_b544ad4c-700e-408b-85e3-2dfc0d0f032f_l34bqo.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    overflow: hidden;
+    height: 100vh;
+}
